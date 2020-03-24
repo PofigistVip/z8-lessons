@@ -1,0 +1,5 @@
+rootProject.name = 'z8-lessons'
+
+if (System.properties['z8.home'] != null)
+	includeBuild(System.properties['z8.home'])
+
