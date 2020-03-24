@@ -1,0 +1,16 @@
+import org.zenframework.z8.base.table.Table;
+
+
+[generatable]
+[name "ТипыОценок"]
+public class ТипОценки extends Table {
+	
+	records {
+		[name "Обычная"]
+		Обычная = '9CC264FB-BB52-44C8-85B3-62240B93E5F1';
+	
+		[name "Итоговая"]
+		Итоговая = '459783D3-A00F-4A43-92AC-CC8DB46C9AF9';
+	}
+
+}

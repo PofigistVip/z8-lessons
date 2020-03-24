@@ -1,0 +1,13 @@
+import org.zenframework.z8.base.table.Table;
+import org.zenframework.z8.base.table.value.DateField;
+
+[generatable]
+[name "Оценки"]
+public class Оценка extends Table {
+
+	[name "датаОценки"]
+	[displayName "Дата оценки"]
+	public DateField датаОценки;
+	датаОценки.defaultValue = date.now();
+
+}

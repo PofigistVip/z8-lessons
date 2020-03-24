@@ -1,0 +1,10 @@
+import org.zenframework.z8.base.table.Table; 
+
+[generatable] 			
+[name "Documents"] 		
+public class Document extends Table { 
+	
+	[displayName "№ Документа"] shortName;
+	[displayName "Текст документа "] description;
+
+}

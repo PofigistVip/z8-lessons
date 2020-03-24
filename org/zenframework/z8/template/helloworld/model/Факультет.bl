@@ -1,0 +1,9 @@
+import org.zenframework.z8.base.table.Table;
+
+
+[generatable]
+[name "Факультеты"]
+public class Факультет extends Table {
+
+	[displayName "Факультет"] name;
+}

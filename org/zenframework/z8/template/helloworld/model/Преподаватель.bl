@@ -1,0 +1,8 @@
+import org.zenframework.z8.base.table.Table;
+
+
+[generatable]
+[name "Преподаватели"]
+public class Преподаватель extends Table {
+
+}

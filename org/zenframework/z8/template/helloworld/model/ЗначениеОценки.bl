@@ -1,0 +1,39 @@
+import org.zenframework.z8.base.table.Table;
+import org.zenframework.z8.base.table.value.IntField;
+
+[generatable]
+[name "ЗначенияОценок"]
+public class ЗначениеОценки extends Table {
+
+	[displayName "Название"] name;
+
+	[name "ЗначениеОценки"]
+	[displayName "Значение"]
+	public IntField значениеОценки;
+	
+	records {
+		[значениеОценки 2]
+		[name "Неудовлетворительно"]
+		Неудовлетворительно = '5BF8CE1D-D66A-40E1-9B4A-8BA6AF04BE7E';
+
+		[значениеОценки 3]	
+		[name "Удовлетворительно"]
+		Удовлетворительно = '29757823-CE4F-41B0-8611-52A2659034E3';
+		
+		[значениеОценки 4]
+		[name "Хорошо"]
+		Хорошо = '56E8C205-C991-40D0-8895-6344F6276A9C';
+		
+		[значениеОценки 5]
+		[name "Отлично"]
+		Отлично = '0BCE3FBB-A08C-46F5-B097-D61A0C244865';
+		
+		[значениеОценки 0]
+		[name "Незачёт"]
+		Незачёт = 'C84D3635-835B-4BCD-8CC4-9971A7252E6C';
+		
+		[значениеОценки 1]
+		[name "Зачёт"]
+		Зачёт = 'FDE70D02-6ADA-4D25-A786-CD17EA5DF286';
+	}	
+}

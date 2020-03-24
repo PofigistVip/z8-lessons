@@ -1,0 +1,9 @@
+import org.zenframework.z8.base.table.Table;
+
+
+[generatable]
+[name "Предметы"]
+public class Предмет extends Table {
+
+	[displayName "Предмет"] name;
+}

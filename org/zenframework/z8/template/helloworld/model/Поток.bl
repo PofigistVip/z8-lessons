@@ -1,0 +1,9 @@
+import org.zenframework.z8.base.table.Table;
+
+
+[generatable]
+[name "Потоки"]
+public class Поток extends Table {
+	
+	[displayName "Поток"] name;
+}
