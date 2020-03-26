@@ -1,0 +1,29 @@
+import org.zenframework.z8.base.table.Table;
+
+[generatable]
+
+public class ExtendedUsers extends Users {
+
+	Преподаватель преподаватель;
+
+	Join преподавательJoin = class {
+		joinType = JoinType.Left;
+		virtual protected sql_bool expression() {
+			return container.recordID.sql_guid() == container.преподаватель.пользовательID;
+		}
+	};
+	преподавательJoin = преподаватель;
+	
+	Студент студент;
+
+	Join студентJoin = class {
+		joinType = JoinType.Left;
+		virtual protected sql_bool expression() {
+			return container.recordID.sql_guid() == container.студент.пользовательID;
+		}
+	};
+	студентJoin = студент;
+
+
+
+}

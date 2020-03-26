@@ -5,5 +5,8 @@ import org.zenframework.z8.base.table.Table;
 [name "Потоки"]
 public class Поток extends Table {
 	
+	Факультет факультет;
+	[name "ФакультетId"] Link факультетId = факультет;
+	
 	[displayName "Поток"] name;
 }

@@ -1,12 +1,13 @@
 import org.zenframework.z8.base.table.Table;
 
-
 [generatable]
-[name "Предметы"]
-public class Предмет extends Table {
+[name "ПреподавательПредмет"]
 
-	[displayName "Предмет"] name;
+public class ПреподавательПредмет extends Table {
 	
 	Преподаватель преподаватель;
 	[name "ПреподавательId"] Link преподавательId = преподаватель;
+	
+	Предмет предмет;
+	[name "ПредметId"] Link предметId = предмет;
 }

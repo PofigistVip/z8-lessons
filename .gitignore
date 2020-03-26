@@ -13,3 +13,4 @@
 *.cache
 *-sources.jar
 *-javadoc.jar
+/bin/

@@ -5,4 +5,7 @@ import org.zenframework.z8.base.table.Table;
 [name "Группы"]
 public class Группа extends Table {
 
+	Поток поток;
+	[name "ПотокId"] Link потокId = поток;
+
 }

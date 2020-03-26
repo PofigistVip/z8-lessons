@@ -4,5 +4,11 @@ import org.zenframework.z8.base.table.Table;
 [generatable]
 [name "Студенты"]
 public class Студент extends Table {
+	
+	Группа группа;
+	[name "ГруппаId"] Link группаId = группа;
 
+	ExtendedUsers пользователь;
+	[name "UserID"] Link пользовательId = пользователь;
+	
 }
