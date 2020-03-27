@@ -1,4 +1,5 @@
 import org.zenframework.z8.base.table.Table;
+import org.zenframework.z8.base.table.value.Link;
 
 [generatable]
 [name "ПреподавательПредмет"]
